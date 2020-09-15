@@ -1,4 +1,4 @@
-AAM 6 - Another AM6
+YAMA6 - Yet Another Metal A6
 ===================
 
 Please post your makes.

@@ -1,0 +1,1 @@
+{TRIPLE CNC MACHINE - UPGRADE  %!s(bool=true)} by {TheTNR %!s(bool=true)} on Thingiverse: https://www.thingiverse.com/thing:3974668
