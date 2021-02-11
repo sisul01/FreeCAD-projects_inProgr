@@ -1,0 +1,994 @@
+
+	
+
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+
+
+
+
+
+<title>Motedis.ch - Ihr Onlineshop für Aluprofil und Zubehör in der Schweiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="Aluminiumprofil, Aluminium profile, aluminium," />
+<meta name="description" content="Motedis - Ihr Onlineshop für Aluprofil und Zubehör in der Schweiz" />
+<meta name="robots" content="index,follow" />
+<meta name="author" content="Motedis" />
+<meta name="publisher" content="Motedis" />
+<meta name="company" content="Motedis" />
+<meta name="revisit-after" content="5" />
+<link rel="canonical" href="https://www.motedis.ch/shop/index.php" />
+<link rel="shortcut icon" href="https://www.motedis.ch/shop/templates/bootstrap/favicon.ico" type="image/x-icon" />
+
+<!--
+	This OnlineStore is brought to you by XT-Commerce, Community made shopping
+	XTC is a free open source e-Commerce System
+	created by Mario Zanier & Guido Winger and licensed under GNU/GPL.
+	Information and contribution at http://www.xt-commerce.com
+-->
+<meta name="generator" content="(c) by xtcModified -----|-- http://www.xtc-modified.org-" />
+<base href="https://www.motedis.ch/shop/" />
+<link rel="stylesheet" href="templates/bootstrap/css/bootstrap.css" type="text/css" media="screen" />
+<style type="text/css">
+      body {
+        padding-top: 90px;
+      }
+</style>
+<link rel="stylesheet" href="templates/bootstrap/css/bootstrap-responsive.min.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="templates/bootstrap/stylesheet.css" type="text/css" />
+<link rel="apple-touch-icon" href="templates/bootstrap/img/apple-touch-icon.png">
+                                                                                                                                         
+<script src="templates/bootstrap/javascript/jquery.js" type="text/javascript"></script>
+<script src="templates/bootstrap/javascript/bootstrap.min.js" type="text/javascript"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+
+
+
+
+
+$(function() {
+
+
+
+// Thickbox
+
+
+$('.thickbox').click(function(e){e.preventDefault();var imgPath = $(this).attr("href");$('#modal2 #myModalLabel').html(this.title);$('#modal2 .modal-body').html('<img src="' +imgPath+ '" alt="" class="center-block img-responsive" />');$("#modal2").modal('show');
+$('#modal2').on('hidden', function() {$(this).removeData('modal');});});
+
+
+
+$('.contentbox').click(function(ev){ev.preventDefault();var target = $(this).attr("href");$('#modal3 #myModalLabel').html(this.title);$('#modal3').modal({remote: target});$("#modal3").modal('show');$('#modal3').on('hidden', function() {$(this).removeData('modal');});});
+
+var c = document.cookie;
+
+$('.collapsebox').each(function () {if (this.id) { var pos = c.indexOf(this.id + "_collapse_in="); if (pos > -1) { c.substr(pos).split('=')[1].indexOf('false') ? $(this).addClass('in') : $(this).removeClass('in');}}}).on('hidden shown', function () {if (this.id) { document.cookie = this.id + "_collapse_in=" + $(this).hasClass('in');}});
+
+$('#myCarousel').carousel({interval: 5000})
+$('.dropdown.men').hover(function() { $(this).addClass('open');}, function() {$(this).removeClass('open');});
+
+$('div.accordion-body').on('shown', function () { $(this).parent("div").find(".icon-chevron-down").removeClass("icon-chevron-down").addClass("icon-chevron-up");});
+
+$('div.accordion-body').on('hidden', function () { $(this).parent("div").find(".icon-chevron-up").removeClass("icon-chevron-up").addClass("icon-chevron-down");});
+
+$('.payment_block .radio').on('click', function() {
+    $('.payment_block .radio').removeClass('active');
+    $(this).addClass('active');
+    $(this).prev('.radio input').prop('checked', true);
+});
+
+$(".same").height( $(".same_height").height() );
+
+ //-- Click on QUANTITY
+            $(".btn-minus").on("click",function(){
+                var now = $(".section > .form-control:text").val();
+                if ($.isNumeric(now)){
+                    if (parseInt(now) -1 > 0){ now--;}
+                    $(".section > .form-control:text").val(now);
+                }else{
+                    $(".section > .form-control:text").val("1");
+                }
+            })
+            $(".btn-plus").on("click",function(){
+                var now = $(".section > .form-control:text").val();
+                if ($.isNumeric(now)){
+                    $(".section > .form-control:text").val(parseInt(now)+1);
+                }else{
+                    $(".section > .form-control:text").val("1");
+                }
+            })
+          });
+</script>
+<link rel="stylesheet" href="templates/bootstrap/css/jquery.cookiebar.css" type="text/css" />
+<script src="templates/bootstrap/javascript/jquery.cookiebar.js?v=1" type="text/javascript"></script>
+<script>
+  $(document).ready(function(){
+	$.cookieBar("","",2);
+  });
+</script>
+
+</head>
+<body>
+
+<header>
+
+
+    <!--
+    <script>
+    var i = 1;
+    var e = document.getElementById("post_it");
+    e.innerHTML = '';
+    setInterval(function() {
+            if(i!=(0-1)){
+        i++;
+      }else{
+        i=0;
+      }
+     }, 10000);
+    </script>-->
+</header>
+<nav class="navbar navbar-default">
+    <div class="container top">
+        <div class="hidden-lg hidden-md hidden-sm">
+            <a class="navbar-brand" href="https://www.motedis.ch/shop/index.php"><img src="templates/bootstrap/img/motedis-logo.png"
+                                                         style="height: auto;" class="img-responsive"
+                                                         alt="Motedis.ch - Ihr Onlineshop für Aluprofil und Zubehör in der Schweiz"/></a>
+            <div class="mobile_nav">
+                <a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                   aria-controls="navbar"> <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <a href="shopping_cart.php" class="pull-right topnav-cart"> <i class="fa fa-shopping-cart"
+                                                                               aria-hidden="true"></i></a>
+                <a href="https://www.motedis.ch/shop/account.php" class="pull-right topnav-account"><i class="fa fa-user"
+                                                                                       aria-hidden="true"></i> </a>            </div>
+        </div>
+
+        <div id="navbar" class="mobile_categories navbar-collapse collapse">
+            <div class="hidden-lg hidden-md hidden-sm"> 
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Kategorien </h3>
+  </div>
+  <div class="panel-body collapse in" id="box_categories">
+    <ul class="nav nav-list dropdown">
+        
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999894.html" title="Kommunikation"  ><span class='cat_img'><img src='images/categories/99999894.png'></span>Kommunikation <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::999991.html" title="Aluprofile"  ><span class='cat_img'><img src='images/categories/999991.gif'></span>Aluprofile <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999916.html" title="Nutprofil Zubehör"  ><span class='cat_img'><img src='images/categories/9999916.gif'></span>Nutprofil Zubehör <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999106.html" title="Spezial - Angebote"  ><span class='cat_img'><img src='images/categories/99999106.JPG'></span>Spezial - Angebote <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999185.html" title="Rohrsysteme 28mm"  ><span class='cat_img'><img src='images/categories/99999185.gif'></span>Rohrsysteme 28mm <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999242.html" title="Halbzeuge"  ><span class='cat_img'><img src='images/categories/99999242.png'></span>Halbzeuge <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999150.html" title="Mechanik Basiselemente"  ><span class='cat_img'><img src='images/categories/99999150.gif'></span>Mechanik Basiselemente <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999932.html" title="Dynamik Basiselemente"  ><span class='cat_img'><img src='images/categories/9999932.gif'></span>Dynamik Basiselemente <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999213.html" title="Dynamik Lineareinheiten"  ><span class='cat_img'><img src='images/categories/99999213.gif'></span>Dynamik Lineareinheiten <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999214.html" title="Dynamik Materialfluß"  ><span class='cat_img'><img src='images/categories/99999214.gif'></span>Dynamik Materialfluß <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999924.html" title="Kabelkanal"  ><span class='cat_img'><img src='images/categories/9999924.gif'></span>Kabelkanal </a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999571.html" title="Energiekette"  ><span class='cat_img'><img src='images/categories/99999571.jpg'></span>Energiekette <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::999991043.html" title="Für 3D Drucker"  ><span class='cat_img'><img src='images/categories/999991043.jpg'></span>Für 3D Drucker <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999671.html" title="Test Produkte"  ><span class='cat_img'><img src='images/categories/99999671.gif'></span>Test Produkte <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999201.html" title="Auf vielfachen Wunsch"  ><span class='cat_img'><img src='images/categories/99999201.gif'></span>Auf vielfachen Wunsch <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999276.html" title="Systematik Lineareinheit"  ><span class='cat_img'><img src='images/categories/99999276.png'></span>Systematik Lineareinheit <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999290.html" title="Rad Baugruppe"  ><span class='cat_img'><img src='images/categories/99999290.png'></span>Rad Baugruppe <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999375.html" title="Drehgelenk Baugruppe"  ><span class='cat_img'><img src='images/categories/99999375.png'></span>Drehgelenk Baugruppe </a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999200.html" title="Friends of"  ><span class='cat_img'><img src='images/categories/99999200.gif'></span>Friends of <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999995.html" title="Bausätze"  ><span class='cat_img'><img src='images/categories/9999995.gif'></span>Bausätze <b class="caret"></b></a></li>
+
+      </ul>
+  </div>
+</div>
+</div>
+            <ul class="nav navbar-nav hidden-xs">
+                <li
+                 class="active"><a
+                    href="https://www.motedis.ch/shop/index.php">Startseite</a></li>
+
+                                <li
+                ><a href="https://www.motedis.ch/shop/account.php">Mein Konto</a></li>
+                
+                
+                                <li
+                ><a
+                    href="https://www.motedis.ch/shop/logoff.php">Abmelden</a></li>                                <li
+                ><a
+                    href="account_history_info.php">Control Center</a></li>                <li
+                ><a href="https://www.motedis.ch/shop/checkout_shipping.php">Kasse</a></li>
+                            </ul>
+                        <ul class="nav navbar-nav navbar-right lang-index">
+                <!-- 
+ <li><a href="https://www.motedis.ch/shop/index.php?language=de"><img src="lang/german/icon.gif" alt="Deutsch" width="50" height="30" /></a></li> <li><a href="http://www.motedis.ch/shop/"><img src="lang/french/icon.gif" alt="French" width="50" height="30" title="Francais" /></a></li> <li><a href="https://www.motedis.ch/shop/index.php?language=en"><img src="lang/english/icon.gif" alt="English" width="50" height="30" title="English" /></a></li> <li><a href="http://www.motedis.ch/shop/"><img src="lang/english/icon_gbp.gif" alt="English" width="50" height="30" title="English" /></a></li> <li><a href="http://www.motedis.ch/shop/"><img src="lang/italian/icon.gif" alt="Italian" width="51" height="30" title="Italian" /></a></li> -->
+                <li><a href=language_map.php>Sprachen</a></li>
+            </ul>
+                    </div>
+
+    </div>
+</nav>
+
+<div class="container header">
+
+    <div class="navbar-header">
+
+        <div class="row"></div>
+
+        <div class="col-md-3 col-sm-3 hidden-xs">
+            <a href="https://www.motedis.ch/shop/index.php"><img src="templates/bootstrap/img/motedis-logo.png"
+                                    style="max-width: 250px; height: auto;" class="img-responsive" alt="Motedis.ch - Ihr Onlineshop für Aluprofil und Zubehör in der Schweiz"/></a>
+        </div>
+        <div class="col-md-7 col-sm-7 top_search">
+<form id="quick_find" action="https://www.motedis.ch/shop/advanced_search_result.php" method="get">
+<div class="form-inline">
+<div class="form-group"><input type="text" name="keywords" value="Suchen" class="form-control" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" /></div>
+<button class="btn btn-default" type="submit" title=""><i class="fa fa-search"></i>&nbsp;</button>
+</div>
+</form>    </div>
+        <div class="col-md-2 col-sm-2 col-xs-12 pull-right"> <nav id="cart-container" class="navbar-cart">
+    <ul class="cart-container-inner">
+        <li>
+            <a href="https://www.motedis.ch/shop/shopping_cart.php" class="dropdown-toggle" data-toggle="dropdown">
+				<span class="cart">
+				 <i class="fa fa-shopping-cart"></i>
+				</span>
+					<span class="cart-products-count">
+					37
+				</span>
+			</a>
+            <ul class="dropdown-menu arrow-top cart-dropdown">
+                <li class="arrow"></li>
+                                <li class="dropdown-header">
+                    Ihr Warenkorb
+                </li>
+                                <li class="cart-dropdown-inside">
+                                        <ul class="products-list">
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop///Aluprofil-20x40-I-Typ-Nut-5::99999498{9999930}2532203574{9999918}3154889372_18665426481_8620190829100720.html" title="Aluprofil 20x40 I-Typ Nut 5">
+						
+								<span class="name col-xs-8">
+									3&nbsp;x&nbsp;Aluprofil 20x40 I-Typ Nut 5
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop///Aluprofil-20x40-I-Typ-Nut-5::99999498{9999930}1287355560{9999918}3154889372_3738979212_0220190829100748.html" title="Aluprofil 20x40 I-Typ Nut 5">
+						
+								<span class="name col-xs-8">
+									2&nbsp;x&nbsp;Aluprofil 20x40 I-Typ Nut 5
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop///Aluprofil-20x40-I-Typ-Nut-5::99999498{9999930}1371425808{9999918}3154889372_19152463442_6220190829100811.html" title="Aluprofil 20x40 I-Typ Nut 5">
+						
+								<span class="name col-xs-8">
+									2&nbsp;x&nbsp;Aluprofil 20x40 I-Typ Nut 5
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop////Praezisionswelle-Stahl-%D8-8mm::999996494{9999930}2303431081{9999918}3154889372_11056044941_6720190829100921.html" title="Präzisionswelle Stahl Ø 8mm">
+						
+								<span class="name col-xs-8">
+									4&nbsp;x&nbsp;Präzisionswelle Stahl Ø 8mm
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop////Praezisionswelle-Stahl-%D8-8mm::999996494{9999930}1717615650{9999918}3154889372_5379503831_9620190829101651.html" title="Präzisionswelle Stahl Ø 8mm">
+						
+								<span class="name col-xs-8">
+									2&nbsp;x&nbsp;Präzisionswelle Stahl Ø 8mm
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop////Schneidhuelse-fuer-Automatik-Verbinder-I-Typ-Nut-5::999994855{29}281{9999931}0_42326570310_7820190829101812.html" title="Schneidhülse für Automatik Verbinder I-Typ Nut 5">
+						
+								<span class="name col-xs-8">
+									8&nbsp;x&nbsp;Schneidhülse für Automatik ...
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop////Sonderschraube-Automatikverbinder-M4x30-N5-I-Typ::999994853{29}281{9999931}0_42326570310_2320190829101912.html" title="Sonderschraube Automatikverbinder M4x30 N5 I-Typ">
+						
+								<span class="name col-xs-8">
+									8&nbsp;x&nbsp;Sonderschraube Automatikver...
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                                <li class="row">
+                            <a href="https://www.motedis.ch/shop////Nutenstein-mit-Steg-I-Typ-Nut-5-M4::999994225{29}281{9999931}0_42326570310_2120190829102008.html" title="Nutenstein mit Steg I-Typ Nut 5 [M4]">
+						
+								<span class="name col-xs-8">
+									8&nbsp;x&nbsp;Nutenstein mit Steg I-Typ N...
+								</span>
+								<span class="price col-xs-4">
+									
+								</span>
+							</a>
+                        </li>
+                                            </ul>
+                    <div class="dropdown-footer">
+                        <div class="total row">
+                            <span class="col-xs-4">
+							Summe
+						</span>
+                            <span class="col-xs-8">
+							 50,02 CHF
+						</span>
+                        </div>
+                        <div class="tax">
+                              zzgl. <a rel="nofollow" target="_blank" href="https://www.motedis.ch/shop/popup_content.php?coID=1&amp;KeepThis=true&amp;TB_iframe=true&amp;height=400&amp;width=600" title="Information" class="contentbox">Versandkosten</a>                        </div>
+                        <div class="cart-button">
+                            <a href="https://www.motedis.ch/shop/shopping_cart.php"><span class="btn btn-default">Warenkorb</span></a>
+                        </div>
+                    </div>
+                                    </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+</div>
+    </div>
+</div>
+</div>
+<section>
+
+
+    
+    <div class="container catid_">
+
+
+        <div class="row-fluid">
+
+
+                        <div class="col-md-3" id="left">
+                <div class="hidden-phone">
+                    
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Kategorien </h3>
+  </div>
+  <div class="panel-body collapse in" id="box_categories">
+    <ul class="nav nav-list dropdown">
+        
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999894.html" title="Kommunikation"  ><span class='cat_img'><img src='images/categories/99999894.png'></span>Kommunikation <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::999991.html" title="Aluprofile"  ><span class='cat_img'><img src='images/categories/999991.gif'></span>Aluprofile <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999916.html" title="Nutprofil Zubehör"  ><span class='cat_img'><img src='images/categories/9999916.gif'></span>Nutprofil Zubehör <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999106.html" title="Spezial - Angebote"  ><span class='cat_img'><img src='images/categories/99999106.JPG'></span>Spezial - Angebote <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999185.html" title="Rohrsysteme 28mm"  ><span class='cat_img'><img src='images/categories/99999185.gif'></span>Rohrsysteme 28mm <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999242.html" title="Halbzeuge"  ><span class='cat_img'><img src='images/categories/99999242.png'></span>Halbzeuge <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999150.html" title="Mechanik Basiselemente"  ><span class='cat_img'><img src='images/categories/99999150.gif'></span>Mechanik Basiselemente <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999932.html" title="Dynamik Basiselemente"  ><span class='cat_img'><img src='images/categories/9999932.gif'></span>Dynamik Basiselemente <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999213.html" title="Dynamik Lineareinheiten"  ><span class='cat_img'><img src='images/categories/99999213.gif'></span>Dynamik Lineareinheiten <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999214.html" title="Dynamik Materialfluß"  ><span class='cat_img'><img src='images/categories/99999214.gif'></span>Dynamik Materialfluß <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999924.html" title="Kabelkanal"  ><span class='cat_img'><img src='images/categories/9999924.gif'></span>Kabelkanal </a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999571.html" title="Energiekette"  ><span class='cat_img'><img src='images/categories/99999571.jpg'></span>Energiekette <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::999991043.html" title="Für 3D Drucker"  ><span class='cat_img'><img src='images/categories/999991043.jpg'></span>Für 3D Drucker <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999671.html" title="Test Produkte"  ><span class='cat_img'><img src='images/categories/99999671.gif'></span>Test Produkte <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999201.html" title="Auf vielfachen Wunsch"  ><span class='cat_img'><img src='images/categories/99999201.gif'></span>Auf vielfachen Wunsch <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999276.html" title="Systematik Lineareinheit"  ><span class='cat_img'><img src='images/categories/99999276.png'></span>Systematik Lineareinheit <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999290.html" title="Rad Baugruppe"  ><span class='cat_img'><img src='images/categories/99999290.png'></span>Rad Baugruppe <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999375.html" title="Drehgelenk Baugruppe"  ><span class='cat_img'><img src='images/categories/99999375.png'></span>Drehgelenk Baugruppe </a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::99999200.html" title="Friends of"  ><span class='cat_img'><img src='images/categories/99999200.gif'></span>Friends of <b class="caret"></b></a></li>
+		<li class="level1"><a href="https://www.motedis.ch/shop/:::9999995.html" title="Bausätze"  ><span class='cat_img'><img src='images/categories/9999995.gif'></span>Bausätze <b class="caret"></b></a></li>
+
+      </ul>
+  </div>
+</div>
+
+
+                    
+                    
+                    
+<div class="well well-small">
+  <div class="clearfix">
+    <span class="categoryheader pull-left">Zuletzt angesehen</span>
+    <button class="btn btn-default btn-mini pull-right" data-toggle="collapse" data-target="#box_last_viewed"><span class="caret"></span></button>
+  </div>
+  <div id="box_last_viewed" class="collapsebox collapse in">
+    <div class="boxcontent">
+	   <p class="text-center"><a href="https://www.motedis.ch/shop////Sonderschraube-Automatikverbinder-M4x30-N5-I-Typ::999994853.html"><img src="images/product_images/thumbnail_images/4853_0.jpg_0.jpg" alt="Sonderschraube Automatikverbinder M4x30 N5 I-Typ" class="img-polaroid"/></a></p>	   <p class="text-center"><a href="https://www.motedis.ch/shop////Sonderschraube-Automatikverbinder-M4x30-N5-I-Typ::999994853.html"><strong>Sonderschraube Automatikverbinder M4x30 N5 I-Typ</strong></a>
+	   <br /> 0,28 CHF
+    	   <br /> zzgl. <a rel="nofollow" target="_blank" href="https://www.motedis.ch/shop/popup_content.php?coID=1&amp;KeepThis=true&amp;TB_iframe=true&amp;height=400&amp;width=600" title="Information" class="contentbox">Versandkosten</a>
+  	 <br />Features:<br /><a href="https://www.motedis.ch/shop///:::9999916_999998_99999939.html">Verbinder &amp; Winkel</a>
+  	 <br /><a href="https://www.motedis.ch/shop/account.php"><span>Mehr auf Ihrer privaten Seite</span></a></p>
+    </div>
+  </div>
+</div>
+                    
+<div class="well well-small">
+  <div class="clearfix">
+  <span class="categoryheader pull-left"><a href="https://www.motedis.ch/shop/products_new.php">Neue Artikel</a></span>
+    <button class="btn btn-default btn-mini pull-right" data-toggle="collapse" data-target="#box_whatsnew"><span class="caret"></span></button>
+  </div>
+  <div id="box_whatsnew" class="collapsebox collapse in">
+    <div class="boxcontent">
+	   <p class="text-center"><a href="https://www.motedis.ch/shop////3D-Filament-PLA-285mm-schwarz-Made-in-Europe::999998593.html"><img src="images/product_images/thumbnail_images/8593_0.jpg_0.jpg" alt="3D Filament PLA 2,85mm schwarz (Made in Europe)" class="img-polaroid"/></a></p>    	<p class="text-center"><a href="https://www.motedis.ch/shop////3D-Filament-PLA-285mm-schwarz-Made-in-Europe::999998593.html"><strong>3D Filament PLA 2,85mm schwarz (Made in Europe)</strong></a><br /> 22,42 CHF
+	   	   <br /> zzgl. <a rel="nofollow" target="_blank" href="https://www.motedis.ch/shop/popup_content.php?coID=1&amp;KeepThis=true&amp;TB_iframe=true&amp;height=400&amp;width=600" title="Information" class="contentbox">Versandkosten</a></p>
+    </div>
+  </div>
+</div>
+
+
+                </div>
+
+
+                
+
+            </div><!-- /left -->
+            
+            <div class="col-md-9">
+
+                                                                                                                
+
+                                
+                                <div class='carousel-title '>Motedis in der Schweiz</div>
+                <div id="carousel-example-generic-28" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic-28"
+                            data-slide-to="0" class="active" ></li>
+                                            </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                            <a class="carousel-link" target="_blank"                               href="javascript:void(0);"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/28.png"
+                                                          alt="Motedis in der Schweiz wird jetzt von der Motedis GmbH betreut"/>
+                                <div class="descr_whole_image_text">Motedis in der Schweiz wird jetzt von der Motedis GmbH betreut</div>
+                            </a>
+                        </div>
+                                            </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-28" role="button"
+                       data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-28" role="button"
+                       data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                                <div class='carousel-title not-first'>Nutprofil System</div>
+                <div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic-1"
+                            data-slide-to="0" class="active" ></li>
+                                                <li data-target="#carousel-example-generic-1"
+                            data-slide-to="1" ></li>
+                                                <li data-target="#carousel-example-generic-1"
+                            data-slide-to="2" ></li>
+                                            </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Aluprofile:::999991.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/1_3.png"
+                                                          alt="Nutprofil"/>
+                                <div class="descr">Nutprofil</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Nutprofil+Zubeh%F6r:::9999916.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/1_2.png"
+                                                          alt="Nutprofil Zubehör"/>
+                                <div class="descr">Nutprofil Zubehör</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="table_cats.php?table_id=19&amp;layer=232"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/1.png"
+                                                          alt="In der Nut"/>
+                                <div class="descr">In der Nut</div>
+                            </a>
+                        </div>
+                                            </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-1" role="button"
+                       data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-1" role="button"
+                       data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                                <div class='carousel-title not-first'>Mechanik Komponenten</div>
+                <div id="carousel-example-generic-6" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic-6"
+                            data-slide-to="0" class="active" ></li>
+                                                <li data-target="#carousel-example-generic-6"
+                            data-slide-to="1" ></li>
+                                                <li data-target="#carousel-example-generic-6"
+                            data-slide-to="2" ></li>
+                                            </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Basic+Basics:::99999208.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/6.png"
+                                                          alt="Basics"/>
+                                <div class="descr">Basics</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Bodenelemente:::9999914.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/6_1.png"
+                                                          alt="Bodenelemente"/>
+                                <div class="descr">Bodenelemente</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="table_cats.php?table_id=58&amp;layer="><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/6_2.png"
+                                                          alt="Abstandhalter mit oder ohne Gewinde"/>
+                                <div class="descr">Abstandhalter mit oder ohne Gewinde</div>
+                            </a>
+                        </div>
+                                            </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-6" role="button"
+                       data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-6" role="button"
+                       data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                                <div class='carousel-title not-first'>Antriebskomponenten.</div>
+                <div id="carousel-example-generic-3" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic-3"
+                            data-slide-to="0" class="active" ></li>
+                                                <li data-target="#carousel-example-generic-3"
+                            data-slide-to="1" ></li>
+                                                <li data-target="#carousel-example-generic-3"
+                            data-slide-to="2" ></li>
+                                            </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                            <a class="carousel-link"                                href="table_cats.php?table_id=27&amp;layer=403"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/3.png"
+                                                          alt="Präzisionsachsen und Zubehör"/>
+                                <div class="descr">Präzisionsachsen und Zubehör</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="table_cats.php?table_id=26&amp;layer="><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/3_1.png"
+                                                          alt="Riemen, Riemenscheiben &amp; Zubehör"/>
+                                <div class="descr">Riemen, Riemenscheiben &amp; Zubehör</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="table_cats.php?table_id=20&amp;layer="><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/3_3.png"
+                                                          alt="Kupplungen"/>
+                                <div class="descr">Kupplungen</div>
+                            </a>
+                        </div>
+                                            </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-3" role="button"
+                       data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-3" role="button"
+                       data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                                <div class='carousel-title not-first'>Motedis macht KEINEN Service &amp; KEINE Anwendungen, WEIL:</div>
+                <div id="carousel-example-generic-5" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic-5"
+                            data-slide-to="0" class="active" ></li>
+                                                <li data-target="#carousel-example-generic-5"
+                            data-slide-to="1" ></li>
+                                                <li data-target="#carousel-example-generic-5"
+                            data-slide-to="2" ></li>
+                                                <li data-target="#carousel-example-generic-5"
+                            data-slide-to="3" ></li>
+                                            </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                            <a class="carousel-link" target="_blank"                               href="DIY.php"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/5_1.png"
+                                                          alt=""/>
+                                <div class="descr"></div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link" target="_blank"                               href="https://www.rawcnc.com "><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/5_1.jpg"
+                                                          alt=""/>
+                                <div class="descr"></div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link" target="_blank"                               href="https://www.youtube.com/watch?v=W8JxEM3lCC0"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/5.jpg"
+                                                          alt="Motedis-Service"/>
+                                <div class="descr">Motedis-Service</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link" target="_blank"                               href="https://threedom.de/"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/5.png"
+                                                          alt=""/>
+                                <div class="descr"></div>
+                            </a>
+                        </div>
+                                            </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-5" role="button"
+                       data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-5" role="button"
+                       data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                                <div class='carousel-title not-first'>3D Filaments</div>
+                <div id="carousel-example-generic-32" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic-32"
+                            data-slide-to="0" class="active" ></li>
+                                                <li data-target="#carousel-example-generic-32"
+                            data-slide-to="1" ></li>
+                                                <li data-target="#carousel-example-generic-32"
+                            data-slide-to="2" ></li>
+                                                <li data-target="#carousel-example-generic-32"
+                            data-slide-to="3" ></li>
+                                                <li data-target="#carousel-example-generic-32"
+                            data-slide-to="4" ></li>
+                                                <li data-target="#carousel-example-generic-32"
+                            data-slide-to="5" ></li>
+                                            </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/3D+Filaments:::99999579.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/32.png"
+                                                          alt="3D Filaments"/>
+                                <div class="descr">3D Filaments</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/F%FCr+3D+Drucker:::999991043.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/32.jpg"
+                                                          alt="Für 3D-Drucker"/>
+                                <div class="descr">Für 3D-Drucker</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Devil+Design+PET-G:::999991046.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/32_3.png"
+                                                          alt="Devil Design PET-G"/>
+                                <div class="descr">Devil Design PET-G</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Alcia+3DP+Filament+PETG:::99999998.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/32_1.png"
+                                                          alt="Alcia 3DP Filament PETG"/>
+                                <div class="descr">Alcia 3DP Filament PETG</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Devil+Design+PLA:::999991047.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/32_4.png"
+                                                          alt="Devil Design PLA"/>
+                                <div class="descr">Devil Design PLA</div>
+                            </a>
+                        </div>
+                                                <div class="item">
+                            <a class="carousel-link"                                href="http://www.motedis.ch/shop/Alcia+3DP++PLA+best+sellers:::999991038.html"><img class="img-responsive"
+                                                          src="https://www.motedis.com/shop/templates/bootstrap/slideshow/32_2.png"
+                                                          alt="Alcia 3DP PLA Bestseller für PLAs"/>
+                                <div class="descr">Alcia 3DP PLA Bestseller für PLAs</div>
+                            </a>
+                        </div>
+                                            </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic-32" role="button"
+                       data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic-32" role="button"
+                       data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                
+
+                                
+                
+
+<div class="home_text"></div>
+
+
+
+                
+
+                
+            </div><!-- /center -->
+
+        </div><!-- /row-fluid -->
+
+
+        
+    </div>
+</section>
+<footer>
+
+    <div class="container">
+        <div class="row footer">
+            <div class="col-md-3">
+                
+<div class="well well-small">
+  <div class="clearfix">
+    <span class="boxheader pull-left">Mehr &uuml;ber...</span>
+   <button class="visible-xs btn btn-default btn-mini pull-right" data-toggle="collapse" data-target="#box_content"><span class="caret"></span></button>
+  </div>
+  <div id="box_content" class="collapsebox collapse in">
+    <div class="boxcontent">
+      <div class="boxbody"><ul class="contentlist"><li><a href="https://www.motedis.ch/shop/Liefer-und-Versandkosten:_:1.html">Liefer- und Versandkosten</a></li><li><a href="https://www.motedis.ch/shop/Privatsph-auml%3Bre-und-Datenschutz:_:2.html">Privatsph&auml;re und Datenschutz</a></li><li><a href="https://www.motedis.ch/shop/Unsere-AGB:_:3.html">Unsere AGB</a></li><li><a href="https://www.motedis.ch/shop/Impressum:_:4.html">Impressum</a></li><li><a href="https://www.motedis.ch/shop/Widerrufsrecht:_:9.html">Widerrufsrecht</a></li></ul></div>
+    </div>
+  </div>
+</div>
+
+            </div>
+            <!--<div class="col-md-3">
+<div class="well well-small">
+  <div class="clearfix">
+    <span class="categoryheader pull-left">Informationen</span>
+    <button class="visible-xs btn btn-default btn-mini pull-right" data-toggle="collapse" data-target="#box_information"><span class="caret"></span></button>
+  </div>
+  <div id="box_information" class="collapsebox collapse in">
+    <div class="boxcontent">
+    <ul class="nav nav-pills nav-stacked"><li><a href="https://www.motedis.ch/shop/:_:16.html"><strong><a href="/daten/katalog/Katalog_ger.pdf"target="_blank"><img src="images/image/PDF_Katalog.jpg" alt="PDF Katalog" /></a></strong></a></li><li><a href="https://www.motedis.ch/shop/Neuprodukte-Angebote:_:44.html"><strong>Neuprodukte / Angebote</strong></a></li></ul>
+    </div>
+  </div>
+</div></div>-->
+            <div class="col-md-3">
+
+
+                <div class="well well-small">
+                    <div class="clearfix">
+                        <span class="categoryheader pull-left">Follow us</span>
+                        <button class="visible-xs btn btn-default pull-right" data-toggle="collapse"
+                                data-target="#box_social"><span class="caret"></span></button>
+                    </div>
+                    <div id="box_social" class="collapsebox">
+                        <div class="boxcontent">
+                            <div id="socialcrumb">
+                                <a class="socialLink" href="https://www.youtube.com/user/Motedis"><img class="socialImg"
+                                                                                                       src="images/social/youtubecircle.png"></a>
+                                <!--<a class="socialLink" href="https://www.facebook.com/Motedis"><img class="socialImg" src="images/social/facebookcircle.png"></a>-->
+                                <a title="Facebook closed because..." class="socialLink" href="javascript:void()"><img
+                                        class="socialImg" src="images/social/facebookcircle-forbidden.png"></a>
+                                <a class="socialLink" href="https://plus.google.com/u/0/100403603987627036961"><img
+                                        class="socialImg" src="images/social/gpluscircle.png"></a>
+                            </div>
+
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="well well-small">
+                    <div class="clearfix">
+                        <span class="categoryheader pull-left">Zahlungsmethoden</span>
+                        <button class="visible-xs btn btn-default btn-mini pull-right" data-toggle="collapse"
+                                data-target="#box_payment"><span class="caret"></span></button>
+                    </div>
+                    <div id="box_payment" class="collapsebox">
+                        <div class="boxcontent">
+                            <ul class="contentlist">
+                                                                <li>
+                                    <img class='transfer' src='templates/bootstrap/img/transfer.png'>
+                                    <div class='transfer'>
+                                        <div id='transfer_font_1'>Bank</div>
+                                        <div id='transfer_font_2'>Überweisung</div>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <img height='34px' src='templates/bootstrap/img/PayPal.png'>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well well-small">
+                    <div class="clearfix">
+                        <span class="categoryheader pull-left">Oft gesucht</span>
+                        <button class="visible-xs btn btn-default btn-mini pull-right" data-toggle="collapse"
+                                data-target="#box_payment"><span class="caret"></span></button>
+                    </div>
+                    <div id="box_payment" class="collapsebox">
+                        <div class="boxcontent">
+                            <ul class="contentlist">
+                                <li>
+                                                                        <a href="/shop/advanced_search_result.php?keywords=nutenstein">Nutenstein</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="span3"></div>
+        </div>
+        <p class="text-center">&copy; 2019 by Motedis.ch - Ihr Onlineshop für Aluprofil und Zubehör in der Schweiz | Powered by PromoTec</p>
+    </div>
+
+</footer>
+
+
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h3 id="myModalLabel"></h3>
+            </div>
+            <div class="modal-body">
+                <img src="#" alt=""/>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h3 id="myModalLabel"></h3>
+            </div>
+            <div class="modal-body">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script type = 'text/javascript'>
+	var gaProperty = 'UA-51057477-5'; 
+    var disableStr = 'ga-disable-' + gaProperty; 
+    if (document.cookie.indexOf(disableStr + '=true') > -1) { 
+        window[disableStr] = true;
+    } 
+    function gaOptout() { 
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; 
+        window[disableStr] = true; 
+        alert('Das Tracking ist jetzt deaktiviert'); 
+    } 
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-51057477-5', 'auto'); 
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+
+
+
+</script><div class="copyright"><a href="http://www.modified-shop.org" target="_blank"><span class="cop_magenta">mod</span><span class="cop_grey">ified eCommerce Shopsoftware &copy; 2009-2019</span></a></div><script type="text/javascript"><!--
+var selected;
+var submitter = null;
+
+function submitFunction() {
+    submitter = 1;
+}
+function popupWindow(url) {
+  window.open(url,'popupWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=100,height=100,screenX=150,screenY=150,top=150,left=150')
+}  
+
+function selectRowEffect(object, buttonSelect) {
+  if (!selected) {
+    if (document.getElementById) {
+      selected = document.getElementById('defaultSelected');
+    } else {
+      selected = document.all['defaultSelected'];
+    }
+  }
+
+  if (selected) selected.className = 'moduleRow';
+  object.className = 'moduleRowSelected';
+  selected = object;
+
+// one button is not an array
+  if (document.getElementById('payment'[0])) {
+    document.getElementById('payment'[buttonSelect]).checked=true;
+  } else {
+    //document.getElementById('payment'[selected]).checked=true;
+  }
+}
+
+function rowOverEffect(object) {
+  if (object.className == 'moduleRow') object.className = 'moduleRowOver';
+}
+
+function rowOutEffect(object) {
+  if (object.className == 'moduleRowOver') object.className = 'moduleRow';
+}
+
+function popupImageWindow(url) {
+  window.open(url,'popupImageWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=yes,copyhistory=no,width=100,height=100,screenX=150,screenY=150,top=150,left=150')
+}
+//--></script>
+</div></body></html>
